@@ -12,7 +12,7 @@ $(window).load(function () {
   var all = true;
   var on = true;
   var off = true;
-  var channelNames = ["kalcedonyx", "mumusiraneitor", "chelleastro", "sirscoots", "exbc", "OgamingSC2", "cretetion", "RobotCaleb", "storbeck", "freecodecamp", "ESL_SC2", "meteos", "brunofin", "comster404"];
+  var channelNames = ["kalcedonyx", "mumusiraneitor", "chelleastro", "sirscoots", "exbc", "OgamingSC2", "cretetion", "RobotCaleb", "storbeck", "freecodecamp", "ESL_SC2", "meteos", "brunofin", "comster404", "syndicate", "riotgames", "summit1g", "esl_csgo", "nightblue3", "imaqtpie", "lirik", "sodapoppin", "tsm_bjergsen", "captainsparklez", "Tsm_dyrus", "joshog", "goldglove", "gosu", "castro_1021", "boxbox"];
 
   for(i=0;i<channelNames.length;i++){
     $.getJSON('https://wind-bow.gomix.me/twitch-api/channels/' + channelNames[i] + '/?callback=?').then(function(json) {
