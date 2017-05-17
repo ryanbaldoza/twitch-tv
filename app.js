@@ -87,7 +87,7 @@ function prependHtml(json, data){
        setTimeout(function(){
       $('.se-pre-con').slideUp('slow',function () {
                 });
-       },1000); 
+       },500); 
       $(".all").show().animateCss("fadeInUp");
      all = false;
  }  
