@@ -217,53 +217,53 @@ box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
   position: fixed;
   opacity: 0;
   visibility: hidden;
-	overflow: hidden;
-	text-align: center;
-	z-index: 99999999;
+  overflow: hidden;
+  text-align: center;
+  z-index: 99999999;
   background-color: #231F20;
-	color: #fff;
-	width: 50px;
-	height: 48px;
-	line-height: 48px;
-	right: 10%;
-	bottom: 20px;
-	padding-top: 2px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+  color: #fff;
+  width: 50px;
+  height: 48px;
+  line-height: 48px;
+  right: 10%;
+  bottom: 20px;
+  padding-top: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4));
   -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 .scroll-top-wrapper:hover {
-	background-color: #fff;
+  background-color: #fff;
   color: #231F20;
 }
 .scroll-top-wrapper.show {
    visibility:visible;
    cursor:pointer;
-	 opacity: 1.0;
+   opacity: 1.0;
 }
 .scroll-top-wrapper i.fa {
-	line-height: inherit;
+  line-height: inherit;
 }
 
-.no-js #loader { display: none;  }
+
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #fff;
 }
 
 #loader{
@@ -292,11 +292,11 @@ background-color:#fff;
 
 .box{
   display: box;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .letterO{
